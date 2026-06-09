@@ -40,22 +40,6 @@ An intelligent Machine Learning system that predicts student graduation status a
   - 📘 **AVERAGE** - Needs motivation
   - ⚠️ **POOR** - Requires intensive guidance
 
-## 📁 Project Structure
-student-performance-predictor/
-├── app.py # Main Streamlit application
-├── classification/ # Graduation prediction model
-│ ├── model_gradient_boosting.pkl
-│ ├── fitur_kelulusan.pkl
-│ └── mapping_kelulusan.pkl
-├── clustering/ # Performance segmentation model
-│ ├── model_clustering.pkl
-│ ├── scaler_clustering.pkl
-│ ├── fitur_clustering.pkl
-│ └── nama_segment.pkl
-├── train_model_classification.py # Classification model training
-├── train_model_clustering.py # Clustering model training
-└── requirements.txt # Dependencies
-
 ## 🚀 Installation & Usage
 
 ### Prerequisites
@@ -64,5 +48,17 @@ student-performance-predictor/
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/yourusername/student-performance-predictor.git
-cd student-performance-predictor
+git clone https://github.com/Vliz175/student-performance-prediction-system.git
+cd student-performance-prediction-system
+```
+
+### Step 2: Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Run the application
+```bash
+streamlit run app.py
+```
+The app will open automatically in your default browser at http://localhost:8501
