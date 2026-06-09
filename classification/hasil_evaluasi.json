@@ -1,0 +1,35 @@
+{
+  "model": "Gradient Boosting",
+  "akurasi": 0.9,
+  "precision": 0.9369369369369369,
+  "recall": 0.9454545454545454,
+  "f1_score": 0.9411764705882353,
+  "auc": 0.9404545454545454,
+  "fitur": [
+    "G1",
+    "G2",
+    "failures",
+    "absences",
+    "studytime",
+    "goout",
+    "freetime",
+    "health",
+    "higher",
+    "internet"
+  ],
+  "confusion_matrix": [
+    [
+      13,
+      7
+    ],
+    [
+      6,
+      104
+    ]
+  ],
+  "jumlah_siswa": {
+    "total": 649,
+    "lulus": 549,
+    "tidak_lulus": 100
+  }
+}
