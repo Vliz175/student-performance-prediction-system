@@ -1,6 +1,3 @@
-# student-performance-prediction-system
-ML-powered system to predict student graduation and segment performance using Gradient Boosting &amp; K-Means clustering. Built with Streamlit.
-
 # 🎓 Student Performance Prediction System
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
